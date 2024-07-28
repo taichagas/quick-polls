@@ -1,0 +1,52 @@
+:root {
+  font-family: "Open Sans", Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 10px;
+
+  --main-bg-color: #1a1e27;
+  --purple: #8169c8;
+  --error-color: #e03d3d;
+  --text-color: #a2b2c1;
+  --white: #ffffff;
+  --input-border: #2e3441;
+  --button-outline-hover: #262137;
+  --button-solid-hover: #a088e7;
+
+  background-color: var(--main-bg-color);
+}
+
+* {
+  font-family: "Open Sans", Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+}
+
+p,
+h1,
+h2,
+h3 {
+  color: var(--text-color);
+}
+
+.cl-cardBox {
+  /* box-shadow: none; */
+}
+
+.cl-card,
+.cl-footer {
+  /* background: var(--main-bg-color); */
+}
+
+.cl-footer::first-child {
+  /* background: var(--main-bg-color); */
+  /* display: none; */
+}

@@ -1,0 +1,17 @@
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  & h1 {
+    font-size: 2.5rem;
+  }
+}
+
+.action__wrapper {
+  margin-top: 1.2rem;
+  display: flex;
+  gap: 2rem;
+}
